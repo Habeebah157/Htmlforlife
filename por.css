@@ -6,11 +6,13 @@ center{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: navy;
+    position: absolute;
+    left: 500px;
 }
 .p1{
     position: absolute;
-    top: 500px;
-    left: 700px;
+    top: 100px;
+    left: 400px;
 
 
 }
@@ -56,3 +58,8 @@ h1{
 em{
     background: turquoise;
 }
+.container-1{
+    display: flex;
+}
+/* https://www.youtube.com/watch?v=tXH-cY7N5bg */
+/* https://www.youtube.com/watch?v=hxbEubm1yQo */
