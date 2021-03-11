@@ -1,31 +1,35 @@
-
+@media only screen and (max-width:50%){
+    body{
+        background-color: rgb(18, 38, 56);
+    }
 body{
-    background-color: rgb(211, 226, 241);
+    background-color:rgb(173, 0, 0);
 }
-center{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
-    color: navy;
-    position: absolute;
-    left: 500px;
+.head{
+    padding: 0%;
+    top: 2px;
+    left: 700px;
+    font-size: 100px;
+    position:fixed;
+    z-index: 2;
 }
 .p1{
     position: absolute;
     top: 100px;
     left: 400px;
-
-
 }
-strong.take{
-    font-size: 20px;
-    color: lightslategray;
-}
+
 .container{
     margin: 0;
     position: absolute;
-    top:70%;
+    top: 400px;
     left: 40%;
     transform: translate(-50%, -50%);
+}
+.container-2{
+    position: absolute;
+    top: 700px;
+    left: 600px;
 }
 h1{
     font-family: sans-serif;
@@ -35,31 +39,16 @@ h1{
     left: 140;
 
 }
-.rounded{
-    border-radius: 50%;
-    padding: 1px;
-    border: 8px solid transparent;
-
-}
+/* 
 .p2{
     position: absolute;
     top:1000px;
     left: 800px;
     width: 120px;
-}
-.rounded2{
-    border-radius: 50%;
-    padding: 1px;
-    border: 8px solid transparent;
-    position: absolute;
-    left: 450;
-    top: 900;
-}
-em{
-    background: turquoise;
-}
-.container-1{
-    display: flex;
+} */
+
+
+
 }
 /* https://www.youtube.com/watch?v=tXH-cY7N5bg */
 /* https://www.youtube.com/watch?v=hxbEubm1yQo */
